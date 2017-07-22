@@ -1,0 +1,9 @@
+{
+  "name": "derweg",
+  "version": "0.0.0",
+  "description": "The Way to generate an awesome static site",
+  "main": "index.js",
+  "repository": "git@github.com:ryanhiebert/derweg.git",
+  "author": "Ryan Hiebert <ryan@ryanhiebert.com>",
+  "license": "MIT"
+}

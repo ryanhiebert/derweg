@@ -2,11 +2,22 @@
   "name": "derweg",
   "version": "0.0.0",
   "description": "The Way to generate an awesome static site",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
-    "derweg": "bin.js"
+    "derweg": "bin/derweg.js"
+  },
+  "scripts": {
+    "build": "tsc"
   },
   "repository": "git@github.com:ryanhiebert/derweg.git",
   "author": "Ryan Hiebert <ryan@ryanhiebert.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/node": "^8.0.15",
+    "typescript": "^2.4.2"
+  }
 }

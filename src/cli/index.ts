@@ -9,6 +9,20 @@ export default function main ([nodeArg, scriptArg, commandArg, ...args]: string[
   } else if (commandArg === 'serve') {
     serve(args)
   } else {
-    console.log(chalk.red(`Unknown command '${commandArg}'`))
+    help(scriptArg)
   }
+}
+
+function help (scriptArg: string) {
+  console.log(`Usage:
+
+${scriptArg} <command>
+
+Commands:
+
+build - Build the static site.
+serve - Serve the development site.
+
+`
+  )
 }

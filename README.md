@@ -2,4 +2,4 @@
 
 The Way to generate an awesome static site
 
-B
+C
